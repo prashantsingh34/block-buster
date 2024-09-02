@@ -25,19 +25,3 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
----
-apiVersion: bitnami.com/v1alpha1
-kind: SealedSecret
-metadata:
-  creationTimestamp: null
-  name: basic-auth
-  namespace: default
-spec:
-  encryptedData:
-    password: AgA8ZCiOEKq3EfGqAas6HgUPTbAKJvBcYY7BkUzMckr+sobvNTeD6qGfaJW5AEkg9HFjAU0WvSRy1D9hr4dAVn7PuLFtlAaiNlDe3EKB1ZYXVm0tvP6cCpv0hwtcrJy2hoqfDwURZFK8y5U/0hbFIlAFjqcKnmU9WGl5eKgNU9Aawa6Lfxk3zCGcNrYn43tDsAmA41rhXirM08zOMx1e/IiwiLMjQH5PiNr2KcHbp57nE+E00MWPjVgu9DfI8rRg3ie7U/paqDT3itYwP37GGYS+nhsNLWV3RbXPH8gey8pJMSjTDarKXHmKlwS3t+BITqNTRGRtzfcUT2NXLyOSaCgAGKoz+xTG3IZYmOfWrwOYH1SQRA6On7h1TUbzpp9rEIOiNAPUK6cgNt7QVqbvkUo5eaFxgUf9g7ngqBVkW4VMCpjfymHt70nIZyFUtdCJV+ZoxUc84qKSJONwTlXB3g9PtejMEQVmJ2/m8Ox1aim5V5MCcEyWS1vk0EHAqBhYDaNRA1yeoUqMY7cmgfNfoIFuLL92btolMdWAXUmNpozX5i9Qjt3Bz4uMxIFpwGODowPPl2n6/vvtLu+jj074DSBy/j8G8OBKbrYo4BpD8/ZKhnUWasFKxBYXhObS9Fvx9sMgd9s1oweRZSk0wBM9NV9owS9bZM2snxaIqLse7rGLQqzhTEo9a5VWyRlmmac5fYFBdxFyEnbkHPs=
-    user: AgAdsIiYOK5eVp3zHKjanxnbDlZTECu7FUqpRTMgK8l3E2IxiDg50J+BJ6CQdGnL7UqsDtgsS+DcTFGP0NyyRUEpIG+VNhqj0t/IKOuminMzas8jSb9cQTKjZ/0To1Y0GJAX+/NabGJCvauT3ImNMYIanWxhvY3SJDRltRhHVbUQCYh7GjXP+MCxMDARqyI35mUYmmDp7+5dY7V992x2vNe4oici1zhrfaZgd0xjv16tlJG4/5MXOLYsp1l6Mdy0Aaemd/joS/Pdy4WXeL+NKGCvTTGM2tVVQKnb8Ddr01dDRgxwQKwu3GZy6qdxYm0T7GKYIe81rYteZNAhqq+qVt+hGF+T7czm+FFBQ+vjtuPeJecAVSVvsYdPw0XIStqJ2f2QNem50Jpoqs2hKLYUk4DCEFf7c4RRwKxPf3cYAe0VK/9EdcdhOVZGIw2dHBQe3A4y/hD8EZEAUq8igSq1hRgGjETVyUV+NdsAnx0sWzOQRdMhU6NVaa8KLA369AjDpL0/M5Ioz4QpWGf7q/qlEJtQYn0XqXdxLd14niZ/AMGOJWoHHD7a5C4XAPRZGkQdqk4Hxlh0dr2Evkf6lyzueRy0T7/GDNYGStJvbCx85qyX9z6Qiw9BhtjdtoqVuAGbuP4MEVNSEc3+Y5V1tFFDfzVaIkgbd4izbL2SA+xH+nG3B7VDge335Tt7kpHQ2ve2NRwjalD/Iw==
-  template:
-    metadata:
-      creationTimestamp: null
-      name: basic-auth
-      namespace: default
