@@ -4,3 +4,14 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - additional-patches.yaml
+patches:
+  - patch: |
+      apiVersion: v1
+      kind: ServiceAccount
+      metadata:
+        name: image-reflector-controller
+        annotations:
+          iam.gke.io/gcp-service-account: artifact-service-account@acquired-muse-428708-k3.iam.gserviceaccount.com   
+    target:
+      kind: ServiceAccount
+      name: image-reflector-controller
