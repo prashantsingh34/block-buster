@@ -18,5 +18,5 @@ spec:
       replicaCount: 1
       image:
         registry: us-central1-docker.pkg.dev
-        repository: weather-service
+        repository: acquired-muse-428708-k3/weather-service/weather-service
         tag: 0.0.1 # {"$imagepolicy": "flux-system:weather-service:tag"}
