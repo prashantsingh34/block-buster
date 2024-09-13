@@ -10,6 +10,7 @@ patches:
       kind: ServiceAccount
       metadata:
         name: image-reflector-controller
+        namespace: flux-system
         annotations:
           iam.gke.io/gcp-service-account: artifact-service-account@acquired-muse-428708-k3.iam.gserviceaccount.com   
     target:
