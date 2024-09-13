@@ -93,7 +93,7 @@ metadata:
 spec:
   interval: 1m
   update:
-    path: ./clusters/dev-cluster/apps
+    path: ./flux-clusters/dev-cluster/apps
   sourceRef:
     kind: GitRepository
     name: flux-system
